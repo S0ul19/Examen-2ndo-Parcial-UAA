@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contenedores</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			.center-image {
+				  display: block;
+				  margin: 0 auto;
+			  }
+		  </style>
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<h1><a href="index.html" id="logo">Desarrollo Web</a></h1>
+								<nav id="nav">
+								  <a href="Tecnologias_API.html" >Tecnologias API</a>
+								  <a href="Microservicios.html" >Microservicios</a>
+								  <a href="Desarrollo_WEB_API.html" >Webs API</a>
+								  <a href="Contenedores.html" >Conetenedores</a>
+								  <a href="Aplicaciones_Nube.html" >Cloud Apps</a>
+								  <a href="ASP.NET.html" >ASP.NET</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+									<section>
+										<header>
+											<h2>Desarrollo con Contenedores (Docker)</h2>
+										</header>
+										<h3>¿Qué son los contenedores (Docker)?</h3>
+										<p>
+											Los contenedores, en el contexto de Docker, son una tecnología de virtualización ligera que permite empaquetar aplicaciones y sus dependencias en entornos autocontenido llamados contenedores. Estos contenedores son portátiles y pueden ejecutarse de manera consistente en cualquier entorno que admita Docker, desde el desarrollo local hasta la nube.
+										</p>
+										<h3>Recomendaciones</h3>
+										<p>
+											Al trabajar con contenedores, es esencial seguir algunas recomendaciones para aprovechar al máximo esta tecnología:
+											<ul>
+												<li>Mantener los contenedores livianos: Evitar incluir componentes innecesarios para reducir el tamaño y mejorar la eficiencia.</li>
+												<li>Utilizar imágenes oficiales o de confianza: Preferir imágenes de Docker provenientes de fuentes confiables y mantenerlas actualizadas.</li>
+												<li>Implementar seguridad: Aplicar las mejores prácticas de seguridad para proteger los contenedores y las aplicaciones que contienen.</li>
+												<li>Orquestación: Considerar el uso de herramientas de orquestación como Kubernetes para gestionar y escalar contenedores en entornos de producción.</li>
+												<li>Monitoreo: Implementar soluciones de monitoreo para supervisar el rendimiento y la salud de los contenedores en tiempo real.</li>
+											</ul>
+										</p>
+										<h3>Proceso</h3>
+										<p>
+											El proceso de desarrollo con contenedores generalmente sigue los siguientes pasos:
+											<ol>
+												<li>Definición de requisitos: Identificar los requisitos de la aplicación y las dependencias necesarias.</li>
+												<li>Creación del Dockerfile: Escribir un archivo Dockerfile que describa cómo construir la imagen del contenedor.</li>
+												<li>Construcción de la imagen: Utilizar el Dockerfile para construir la imagen del contenedor.</li>
+												<li>Desarrollo y pruebas: Desarrollar y probar la aplicación dentro del contenedor de desarrollo.</li>
+												<li>Empaquetado y distribución: Empaquetar la aplicación y sus dependencias en una imagen de contenedor y distribuirla a través de un registro de Docker.</li>
+												<li>Despliegue: Desplegar la imagen del contenedor en un entorno de producción utilizando herramientas de orquestación como Docker Swarm o Kubernetes.</li>
+												<li>Mantenimiento: Realizar actualizaciones, correcciones de errores y escalar los contenedores según sea necesario.</li>
+											</ol>
+										</p>
+										<img src="images/Docker.png" class="center-image">										
+									</section>
+							</div>
+						</div>
+						<section>
+							<div>
+								<h1>Videos de Apoyo</h1>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/P82FF4-Ee2k?si=upuWgNK7a9QCvfJn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/yQZwfnlvz6g?si=hGJPv-rOtSVQ_W17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+							</div>
+						</section>
+					</div>
+				</section>
+		</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

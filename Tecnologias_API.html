@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tecnologias API</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .center-image {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+  </head>
+  <body class="subpage">
+    <div id="page-wrapper">
+      <section id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1><a href="index.html" id="logo">Desarrollo Web</a></h1>
+              <nav id="nav">
+                <a href="Tecnologias_API.html" >Tecnologias API</a>
+                <a href="Microservicios.html" >Microservicios</a>
+                <a href="Desarrollo_WEB_API.html" >Webs API</a>
+                <a href="Contenedores.html" >Conetenedores</a>
+                <a href="Aplicaciones_Nube.html" >Cloud Apps</a>
+                <a href="ASP.NET.html" >ASP.NET</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <section>
+                <header>
+                  <h2>Tecnologías de Web API</h2>
+                </header>
+                <p>
+				<h3>¿Qué son las Tecnologías de Web API?</h3>
+				Las tecnologías de Web API son conjuntos de protocolos, estándares y formatos utilizados para facilitar la comunicación entre sistemas distribuidos a través de la web.
+			    Estas tecnologías permiten la creación, el consumo y la integración de servicios web y APIs de manera eficiente y segura.
+				<img src="images/API_1.jpg" class="center-image">
+                </p>
+				<h1>HTTP (Protocolo de Transferencia de Hipertexto)</h1>
+				<ol>
+					<li>
+						<strong>¿Qué es?</strong>: HTTP es el protocolo fundamental que subyace a la web moderna.
+             Define cómo se comunican los clientes (como navegadores web) y los servidores (que alojan sitios web y otros recursos) a través de la transferencia de información.
+					</li>
+					<li>
+						<strong>Cómo se usa</strong>: HTTP utiliza un conjunto de métodos,
+             como GET para obtener datos, POST para enviar datos al servidor, PUT para actualizar recursos y DELETE para eliminar recursos. Las solicitudes y respuestas HTTP llevan datos en forma de mensajes, incluyendo encabezados y, opcionalmente, un cuerpo.
+					</li>
+					<li>
+						<strong>¿Por qué usarlo?</strong>: HTTP es esencial para la navegación y la comunicación en línea.
+             Facilita la transferencia de datos entre clientes y servidores de manera eficiente y segura. Además, su amplia adopción y compatibilidad lo convierten en una opción confiable para la interacción en la web.
+					</li>
+        <img src="images/API_HTTP_1.png" class="center-image">
+				</ol>
+                <p>
+                  <h1>SOAP (Simple Object Access Protocol)</h1>
+                  <ol>
+                      <li>
+                          <strong>¿Qué es?</strong>: SOAP es un protocolo de comunicación basado en XML que permite intercambiar mensajes entre sistemas distribuidos en una red.
+                           Se utiliza principalmente en servicios web para garantizar la interoperabilidad entre diferentes plataformas y tecnologías.
+                      </li>
+                      <li>
+                          <strong>Cómo se usa</strong>: SOAP define una estructura de mensaje XML que contiene información sobre la operación a realizar y los datos asociados.
+                           Estos mensajes se envían a través de diferentes protocolos de red, como HTTP, SMTP, etc.
+                      </li>
+                      <li>
+                          <strong>¿Por qué usarlo?</strong>: SOAP proporciona un mecanismo estandarizado y formal para la comunicación entre sistemas heterogéneos.
+                           Es útil en entornos empresariales donde la estructura y la seguridad de las comunicaciones son críticas.
+                      </li>
+                  </ol>
+                <img src="images/API_SOAP.jpg" class="center-image">
+                </p>
+                <p>
+                  <h1>REST (Representational State Transfer)</h1>
+                  <ol>
+                      <li>
+                          <strong>¿Qué es?</strong>: REST es un estilo arquitectónico para sistemas distribuidos que se basa en la manipulación de recursos
+                           a través de operaciones CRUD (Crear, Leer, Actualizar, Borrar) utilizando métodos HTTP estándar.
+                      </li>
+                      <li>
+                          <strong>Cómo se usa</strong>: REST utiliza URIs (Uniform Resource Identifiers) para identificar y acceder a recursos,
+                           y los métodos HTTP (GET, POST, PUT, DELETE) para realizar operaciones en estos recursos. Los datos se suelen representar en formatos como JSON o XML.
+                      </li>
+                      <li>
+                          <strong>¿Por qué usarlo?</strong>: REST es flexible, escalable y fácil de entender.
+                           Permite la construcción de APIs que son fáciles de mantener y consumir. Su enfoque basado en estándares web lo hace ideal para el desarrollo de servicios web y APIs.
+                      </li>
+                  </ol>
+                  <img src="images/API_REST.png" class="center-image">
+                </p>
+                <p>
+                  <h1>JWT (JSON Web Tokens)</h1>
+    <ol>
+        <li>
+            <strong>¿Qué es?</strong>: JWT es un estándar abierto (RFC 7519) que define un formato compacto y autenticado para la transferencia segura de información entre dos partes.
+        </li>
+        <li>
+            <strong>Cómo se usa</strong>: JWT consiste en un token codificado en formato JSON que contiene información sobre el usuario y
+             puede ser firmado y cifrado para garantizar su integridad. Se utiliza para la autenticación y la transferencia segura de datos entre el cliente y el servidor.
+        </li>
+        <li>
+            <strong>¿Por qué usarlo?</strong>: JWT proporciona un mecanismo seguro y eficiente para la autenticación y
+             autorización en aplicaciones web y APIs. Es fácil de implementar y es ampliamente utilizado en sistemas de autenticación modernos, como la autenticación basada en tokens.
+        </li>
+    </ol>
+    <img src="images/API_JWT.png" class="center-image">
+                </p>
+              </section>
+              <section>
+                <div>
+                  <h1>Videos de Apoyo</h1>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/AtUyLBOe7FI?si=D7gI3Nx19kBE4VQf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/z4jjVllUX4c?si=e1W_9WaVJIHSLtp2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
